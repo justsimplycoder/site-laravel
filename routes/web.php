@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::view('/contact', 'contact', [
+Route::view('/contacts', 'contact', [
     'telephon' => '+7 (800) 322 45 12',
     'email' => 'manager@site-laravel.com'
 ]);

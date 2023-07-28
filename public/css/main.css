@@ -15,3 +15,8 @@ body {
 .footer {
 	background-color: #ccc;
 }
+
+/* Модули */
+.menu__link--is-action {
+	color: red;
+}
