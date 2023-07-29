@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #ccc;
+}
+.footer {
+	background-color: #ccc;
+}
+
+/* Модули */
+.menu__link--is-action {
+	color: red;
+}
