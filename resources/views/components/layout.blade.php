@@ -15,7 +15,7 @@
 	</div>
 	<x-menu />
 </header>
-<div class="page__content">
+<div class="page__content {{ $page_content ?? '' }}">
 {{ $slot }}
 </div>
 <footer class="page__footer footer">
