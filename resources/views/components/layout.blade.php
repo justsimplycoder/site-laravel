@@ -10,9 +10,9 @@
 </head>
 <body class="page">
 <header class="page__header header">
-	<div style="width: 30px;">
+	<div style="width: 30px;"><a href="{{ route('home') }}">
 		@include('svg.logo')
-	</div>
+	</a></div>
 	<x-menu />
 </header>
 <div class="page__content {{ $page_content ?? '' }}">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController; // Контроллер юзера
 use Illuminate\Http\Request;
@@ -16,10 +17,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    // return view('welcome');
-    return view('home');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::view('/contacts', 'contact', [
     'telephon' => '+7 (800) 322 45 12',
